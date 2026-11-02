@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabarito da Avaliação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    .container {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #0d6efd;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+    .questao {
+      margin-bottom: 40px;
+      padding: 20px;
+      background: #f8f9fa;
+      border-radius: 6px;
+      border: 1px solid #e9ecef;
+    }
+    .pergunta {
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #212529;
+      font-size: 1.2em;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 10px;
+    }
+    .codigo-container {
+      margin-bottom: 20px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 12px;
+      border-radius: 6px 6px 0 0;
+      font-weight: bold;
+      color: #fff;
+      font-size: 0.9em;
+      letter-spacing: 0.5px;
+    }
+    .badge-html { background-color: #e34f26; }
+    .badge-css { background-color: #1572b6; }
+    
+    pre {
+      background-color: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 0 6px 6px 6px;
+      overflow-x: auto;
+      font-family: 'Consolas', 'Courier New', Courier, monospace;
+      font-size: 0.9em;
+      line-height: 1.4;
+      margin: 0;
+      border: 1px solid #1e1e1e;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Gabarito da Avaliação</h1>
+
+    <!-- INÍCIO DO PROJETO 1 -->
+    <div class="questao">
+      <div class="pergunta">1. Projeto 1 - Meu Blog (Módulo 1)</div>
+
+      <div class="codigo-container">
+        <span class="badge badge-html">HTML</span>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Blog Programe.io&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- CABEÇALHO --&gt;
+  &lt;header&gt;
+    &lt;h1&gt;Blog Programe.io&lt;/h1&gt;
+    &lt;p&gt;Notícias todos os dias desse mercado que só cresce!&lt;/p&gt;
+  &lt;/header&gt;
+
+  &lt;!-- NAVEGAÇÃO --&gt;
+  &lt;nav&gt;
+    &lt;a href="#"&gt;Início&lt;/a&gt;
+    &lt;a href="#"&gt;Página 2&lt;/a&gt;
+    &lt;a href="#"&gt;Página 3&lt;/a&gt;
+    &lt;a href="#"&gt;Página 4&lt;/a&gt;
+  &lt;/nav&gt;
+
+  &lt;!-- CORPO PRINCIPAL --&gt;
+  &lt;div class="row"&gt;
+    &lt;!-- BARRA LATERAL (SOBRE &amp; GALERIA) --&gt;
+    &lt;aside&gt;
+      &lt;h2&gt;Sobre&lt;/h2&gt;
+      &lt;h5&gt;Fotinha&lt;/h5&gt;
+      &lt;div class="fakeimg"&gt;Imagem&lt;/div&gt;
+      &lt;p&gt;Minha descrição de minha vida e carreira.&lt;/p&gt;
+      
+      &lt;h3&gt;Minha Galeria&lt;/h3&gt;
+      &lt;p&gt;Algum texto legal aqui&lt;/p&gt;
+      &lt;div class="fakeimg"&gt;Imagem&lt;/div&gt;
+      &lt;div class="fakeimg"&gt;Imagem&lt;/div&gt;
+      &lt;div class="fakeimg"&gt;Imagem&lt;/div&gt;
+    &lt;/aside&gt;
+
+    &lt;!-- POSTAGENS DO BLOG --&gt;
+    &lt;main&gt;
+      &lt;article&gt;
+        &lt;h2&gt;TÍTULO DA POSTAGEM&lt;/h2&gt;
+        &lt;h5&gt;Jonathan, Jun 22, 2023&lt;/h5&gt;
+        &lt;div class="fakeimg"&gt;Imagem&lt;/div&gt;
+        &lt;p&gt;Algum texto...&lt;/p&gt;
+        &lt;p&gt;Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+      &lt;/article&gt;
+
+      &lt;hr style="margin: 20px 0; border: 0; border-top: 1px solid #ccc;"&gt;
+
+      &lt;article&gt;
+        &lt;h2&gt;TÍTULO HEADING 2&lt;/h2&gt;
+        &lt;h5&gt;Jonathan, Dec 7, 2017&lt;/h5&gt;
+        &lt;div class="fakeimg"&gt;Imagem&lt;/div&gt;
+        &lt;p&gt;Algum texto...&lt;/p&gt;
+        &lt;p&gt;Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;
+      &lt;/article&gt;
+    &lt;/main&gt;
+  &lt;/div&gt;
+
+  &lt;!-- RODAPÉ --&gt;
+  &lt;footer&gt;
+    &lt;h2&gt;Footer&lt;/h2&gt;
+  &lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </div>
+
+      <div class="codigo-container">
+        <span class="badge badge-css">CSS</span>
+        <pre><code>/* RESET E CONFIGURAÇÕES GERAIS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+/* HEADER */
+header {
+  padding: 60px;
+  text-align: center;
+  background-color: #1abc9c;
+  color: #ffffff;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  background-color: #333333;
+}
+
+nav a {
+  color: #ffffff;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #dddddd;
+  color: #000000;
+}
+
+/* LAYOUT ROW */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ASIDE (BARRA LATERAL) */
+aside {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* MAIN (CONTEÚDO PRINCIPAL) */
+main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* FAKE IMG (SUBSTITUTO DE IMAGEM) */
+.fakeimg {
+  background-color: #aaaaaa;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: #100e17;
+  color: #ffffff;
+}
+
+/* RESPONSIVIDADE (MEDIA QUERY) */
+@media screen and (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+  .row {
+    flex-direction: column;
+  }
+}</code></pre>
+      </div>
+    </div>
+    <!-- FIM DO PROJETO 1 -->
+
+    <!-- INÍCIO DO PROJETO 2 -->
+    <div class="questao">
+      <div class="pergunta">2. Projeto 2 - Mini Feed Social (Módulo 2)</div>
+
+      <div class="codigo-container">
+        <span class="badge badge-html">HTML</span>
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Mini Feed&lt;/title&gt;
+  &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+  &lt;!-- CABEÇALHO --&gt;
+  &lt;header&gt;
+    &lt;div class="header-content"&gt;
+      &lt;h1&gt;Mini Feed&lt;/h1&gt;
+      &lt;nav&gt;
+        &lt;a href="#"&gt;Início&lt;/a&gt;
+        &lt;a href="#"&gt;Perfil&lt;/a&gt;
+      &lt;/nav&gt;
+    &lt;/div&gt;
+  &lt;/header&gt;
+
+  &lt;!-- MAIN (FEED) --&gt;
+  &lt;main&gt;
+    &lt;!-- ÁREA DE NOVA PUBLICAÇÃO --&gt;
+    &lt;section class="new-post"&gt;
+      &lt;div class="user"&gt;
+        &lt;div class="avatar"&gt;B&lt;/div&gt;
+        &lt;div&gt;
+          &lt;strong&gt;Breno Cruz&lt;/strong&gt;
+          &lt;span&gt;O que você está pensando?&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;button type="button"&gt;Publicar&lt;/button&gt;
+    &lt;/section&gt;
+
+    &lt;!-- POSTAGEM 1 --&gt;
+    &lt;article&gt;
+      &lt;div class="post-header user"&gt;
+        &lt;div class="avatar"&gt;J&lt;/div&gt;
+        &lt;div&gt;
+          &lt;strong&gt;Jonathan&lt;/strong&gt;
+          &lt;span&gt;há 10 minutos&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class="post-text"&gt;Assistindo ao novo filme do Homem-Aranha! Incrível demais!&lt;/p&gt;
+      &lt;img src="https://via.placeholder.com/600x350" alt="Cena do filme do Homem-Aranha" class="post-image"&gt;
+      &lt;div class="post-actions"&gt;
+        &lt;button type="button"&gt;Curtir&lt;/button&gt;
+        &lt;button type="button"&gt;Comentar&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;
+
+    &lt;!-- POSTAGEM 2 --&gt;
+    &lt;article&gt;
+      &lt;div class="post-header user"&gt;
+        &lt;div class="avatar"&gt;M&lt;/div&gt;
+        &lt;div&gt;
+          &lt;strong&gt;Maria Santos&lt;/strong&gt;
+          &lt;span&gt;há 2 horas&lt;/span&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class="post-text"&gt;Estudando Flexbox e posicionamento no CSS hoje. Prática leva à perfeição!&lt;/p&gt;
+      &lt;div class="post-actions"&gt;
+        &lt;button type="button"&gt;Curtir&lt;/button&gt;
+        &lt;button type="button"&gt;Comentar&lt;/button&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;
+  &lt;/main&gt;
+
+  &lt;!-- RODAPÉ --&gt;
+  &lt;footer&gt;
+    &lt;p&gt;&amp;copy; 2026 Mini Feed. Todos os direitos reservados.&lt;/p&gt;
+  &lt;/footer&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      </div>
+
+      <div class="codigo-container">
+        <span class="badge badge-css">CSS</span>
+        <pre><code>/* RESET E BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  color: #333333;
+}
+
+/* HEADER */
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #1abc9c;
+  font-size: 1.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #1abc9c;
+}
+
+/* CONTEÚDO PRINCIPAL (MAIN) */
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 10px;
+}
+
+/* ÁREA DE USUÁRIO E AVATAR */
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background-color: #1abc9c;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items
